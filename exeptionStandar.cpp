@@ -17,7 +17,8 @@ int main()
     catch (exception& e) {
         //penangkap  menggunakan objek exception
         cout << e.what() << endl;
-        /*penanda 2: bahwa program berjalan tanpa berhenti meskipun terjadi kesalahan*/
-        return 0;
     }
-}
+    cout << "Baris program yang terakhir" << endl;
+
+    return 0;
+};
